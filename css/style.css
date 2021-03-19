@@ -15,6 +15,7 @@ body {
     margin-right: 25px;
     margin-bottom: 10px;
     margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -72,5 +73,22 @@ footer {
     padding: 10px;
     margin: 20px 20px;
     background-color: lightskyblue;
+}
+
+#logo {
+    width: 200px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+}
+
+.list-inline a {
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
